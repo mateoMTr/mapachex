@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+}
+.background{
+    position: absolute;
+    background-image: url(../css/img/Screenshot_15.png);
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    left: 0;
+    filter: blur(3px);
+}
+header{
+    position: absolute;
+    top: 0;
+    width: 90%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    background-color: #000;
+    border-radius: 40px;
+    width: 35%;
+    height: auto;
+}
+header ul li{
+    list-style-type: none;
+}
+header ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+.contenido{
+    position:  relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenido .txt{
+    position: relative;
+    max-width: 700px;
+    overflow: visible;
+}
+.contenido .txt h2{
+    color: #000;
+    font-size: 4em;
+    line-height:  1.4em;
+    font-weight: 500;
+    overflow: hidden !important;
+}
+.contenido .txt h2 span{
+    color: #6f4e37;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.contenido .txt p{
+    color: #000;
+    font-size: 19px;
+}
+.contenido .txt a{
+    display: inline-block;
+    margin-top: 20px;
+    padding:  8px 20px;
+    background:  black;
+    color: white;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.circulito{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6f4e37;
+    clip-path: circle(600px at right 800px);
+}
+.about{
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    overflow: hidden;
+    background-color: #6f4e37;
+}
+.columna{
+    width: 100%;
+    padding: 50px 100px;
+}
+.img{
+    width: 30%;
+    float: left;
+}
+.img img{
+    width: 100%;
+    height: auto;
+}
+.txt2{
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+}
+.txt2 h1{
+    font-size: 90px;
+    letter-spacing:  3.5px;
+    margin-top: 25px;
+    color: #000;
+}
+.txt2 hr{
+    color: white;
+}
+.txt2 h2{
+    font-size: 50px;
+    font-style: 60px;
+    color: burlywood;
+    margin-top: 10px;
+}
+.txt2 p{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.divider{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: -23%;
+    left: 19%;
+}
+.productos{
+    background-color: #6f4e37;
+}
+.arriba{
+    text-align: center;
+    position: absolute;
+    top: 13%;
+    left: 37%;
+}
+.arriba h3{
+    font-size: 3rem;
+    color: burlywood;
+}
+.productos .cajaproductos{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1rem;
+    align-items: flex-start;
+}
+.productos .cajaproductos .caja img{
+    height: 10rem;
+}
+.productos .cajaproductos .caja h3{
+    font-size: 2rem;
+    color: white;
+}
+.productos .cajaproductos .caja p{
+    line-height: 2;
+    font-size: 1,5rem;
+    color: black;
+}
+.cajablanca{
+    overflow: hidden;
+    width: 100%;
+    min-height: 40vh;
+    background-image: url(img/Seoul+Raccoon+Cafe+_+SaltWaterVibes.jpg);
+    background-size: cover;
+    background-color: black;
+    position:  absolute;
+    bottom: 0;
+    left: 0;
+}
+.cajablanca svg{
+    position: absolute;
+}
+.reserva{
+    background-image: url(img/Seoul+Raccoon+Cafe+_+SaltWaterVibes.jpg);
+    background-position-x: 4px;
+    background-position-y: -380px;
+    min-height: 20vh !important;
+}
+.reserva .columna{
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.reserva .columna .imagen{
+    flex: 1 1 50rem;
+}
+.reserva .columna .imagen img{
+    width: 100%;
+}
+.reserva .columna form{
+    background-color: #6f4e37;
+    flex: 1 1 30rem;
+    border: 0.3rem solid black;
+    padding: 2rem;
+    text-align: center;
+}
+.reserva .columna form h3{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+.reserva .columna form .box{
+    background: white;
+    width: 100%;
+    pad: 1.4rem;
+    font-size: 1.8rem;
+    color: black;
+    border: .2rem solid black;
+    margin: 1rem;
+
+}
+.circuloderecha{
+    position: relative;
+    z-index: 50;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #6f4e37;
+    clip-path: circle(600px at right 800px);
+}
+.circuloderecha2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    height: 100%;
+    background-color: #6f4e37;
+    clip-path: circle(600px at left 600px);
+}
+.btn{
+    display: inline-block;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8rem;
+    padding:0.5rem 4rem;
+    transition: 0.5s;
+ }
+ .btn:hover{
+    background-color: white;
+    color: black;
+ }
+ .footer{
+    min-height: 400px;
+    position: relative;
+    background-color: #6f4e37;
+ }
+ .footer .contenedor{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .footer .contenedor .caja{
+    margin: 2.5rem;
+    text-align: center;
+ }
+ .footer .contenedor .caja i{
+    font-size: 2.5rem;
+    line-height: 6rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    margin-bottom: .5rem;
+ }
+ .footer .contenedor .caja h3{
+    margin: 0.5rem 0;
+    font-size: 2rem;
+    color: white;
+ }
+ .footer .contenedor .caja p{
+    line-height: 2;
+    font-size: 1.6rem;
+ }
+ .footer .credit{
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2.5rem;
+    border-top: 0.3rem solid black;
+    font-size: 2rem;
+ }
+ .footer .credit span{
+    color: white;
+ }
