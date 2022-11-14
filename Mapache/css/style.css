@@ -44,7 +44,7 @@ header ul{
     display: flex;
     background-color: #000;
     border-radius: 40px;
-    width: 35%;
+    width: 40%;
     height: auto;
 }
 header ul li{
@@ -156,7 +156,7 @@ header ul li a{
     width: 60%;
     height: auto;
     position: absolute;
-    top: -23%;
+    top: -15%;
     left: 19%;
 }
 .productos{
@@ -209,6 +209,8 @@ header ul li a{
 }
 .reserva{
     background-image: url(img/Seoul+Raccoon+Cafe+_+SaltWaterVibes.jpg);
+    background-repeat: no-repeat;
+    background-color: #6f4e37;
     background-position-x: 4px;
     background-position-y: -380px;
     min-height: 20vh !important;
